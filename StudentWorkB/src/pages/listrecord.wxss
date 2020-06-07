@@ -1,0 +1,49 @@
+.shoplist {
+  width: 1200px;
+  margin: 0 auto 40px auto;
+}
+.shoplist ul {
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+}
+.shoplist ul li {
+  float: left;
+  margin-left: 10px;
+  border: 1px solid #e7e7e7;
+  width: calc(10%);
+  margin-bottom: 30px;
+  list-style: none;
+  height: 300px;
+}
+.shoplist ul li:hover {
+  border: 1px solid red;
+  cursor: pointer;
+}
+.listImg {
+  width: 100%;
+  height: 200px;
+}
+.listImg img {
+  width: 100%;
+  height: 100%;
+}
+.produce {
+  margin-top: 10px;
+  color: #333;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.price {
+  margin-top: 5px;
+  color: #666;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.price span {
+  color: red;
+}
+.clearfix {
+  clear: both;
+}
